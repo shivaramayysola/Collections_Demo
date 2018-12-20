@@ -31,13 +31,16 @@ class Customer
             this.name = name;
             this.Age = Age;
             this.address = address;
+    }
             
             public String toString()
-            return(     "Name : "+ name +"\nAge :"+ age + 
+            {
+                return(     "Name : "+ name +"\nAge :"+ age + 
                         "\nH.No :" +address.hsno+"\nStreet :"+address.street+
                         "\nCity" +address.city+"\n ph"+address.ph
                         
-            );
+                );
+            }
                 
             
                 
